@@ -1,0 +1,418 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.attlocal.net (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_rhinovirusA_1-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    149452 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov 29 15:28:43 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_rhinovirusA_1-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0347152 secs using 95.39% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0141258 secs using 84.77% CPU
+Alignment has 281 sequences with 7137 columns, 1786 distinct patterns
+1796 parsimony-informative, 364 singleton sites, 4977 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000894785 secs using 90.41% CPU
+   1  FJ445111    0.04%    passed     64.22%
+   2  MF973193    0.56%    passed     61.54%
+   3  KC894167    0.56%    passed     62.68%
+   4  KC894168    0.59%    passed     62.17%
+   5  KC894166    0.52%    passed     63.16%
+   6  KC894169    0.55%    passed     62.20%
+   7  MN749147    0.00%    passed     60.75%
+   8  MN749150    0.85%    passed     77.17%
+   9  MN749153    1.44%    passed     46.01%
+  10  MN749156    0.01%    passed     71.11%
+  11  MN749157    0.06%    passed     72.54%
+  12  JN837694    3.08%    passed     52.67%
+  13  MF973194    2.75%    passed     42.51%
+  14  JQ837724   11.80%    passed     73.13%
+  15  LC699424    1.39%    passed     90.84%
+  16  OK539479    1.32%    passed     99.39%
+  17  OM001419    1.33%    passed     99.97%
+  18  OL133743    1.32%    passed     99.95%
+  19  OK161412    1.32%    passed     99.95%
+  20  OK539497    1.33%    passed     99.99%
+  21  OL365069    1.32%    passed     99.83%
+  22  OK161379    1.36%    passed     99.74%
+  23  OL638411    1.32%    passed     99.94%
+  24  OL638432    1.32%    passed     99.88%
+  25  OL638439    1.39%    passed     99.95%
+  26  OK649374    1.32%    passed     99.87%
+  27  OK181498    1.32%    passed     99.87%
+  28  OK649414    1.32%    passed     99.90%
+  29  OK181461    1.36%    passed     99.84%
+  30  OK649373    1.32%    passed     99.83%
+  31  OL365071    1.58%    passed     99.90%
+  32  OL638443    1.32%    passed     99.97%
+  33  OL961523    1.32%    passed     99.97%
+  34  OL961548    1.32%    passed     99.97%
+  35  OM001396    1.32%    passed     99.97%
+  36  OK649368    1.32%    passed     99.97%
+  37  OL133754    1.32%    passed     99.97%
+  38  OK539493    1.32%    passed     99.92%
+  39  OM001384    1.32%    passed     99.90%
+  40  OL133765    1.32%    passed    100.00%
+  41  OM001421    1.33%    passed     99.90%
+  42  OK254851    1.32%    passed     99.86%
+  43  OK161399    1.32%    passed     99.97%
+  44  OK181456    1.32%    passed     99.97%
+  45  OK181485    1.32%    passed     99.97%
+  46  MZ835605    1.32%    passed     99.97%
+  47  OK649401    1.32%    passed     99.88%
+  48  OK181463    1.32%    passed     99.88%
+  49  MZ835563    1.32%    passed     99.88%
+  50  MZ460702    1.32%    passed     99.96%
+  51  MZ835580    1.37%    passed     99.89%
+  52  OL638452    1.32%    passed     99.95%
+  53  OM001378    1.32%    passed     99.94%
+  54  OL133728    1.32%    passed     99.94%
+  55  OL133762    1.32%    passed     99.94%
+  56  OK539508    1.32%    passed     99.97%
+  57  OK649405    1.32%    passed     99.92%
+  58  OM001436    1.32%    passed     99.98%
+  59  OK181470    1.32%    passed     99.98%
+  60  OM001426    1.32%    passed     99.97%
+  61  OK181473    1.32%    passed     99.97%
+  62  MZ670587    1.32%    passed     99.97%
+  63  OK649411    1.32%    passed     99.97%
+  64  OK649419    1.32%    passed     99.97%
+  65  OL133747    1.42%    passed    100.00%
+  66  OL133751    1.40%    passed     99.99%
+  67  OK539460    1.32%    passed     99.96%
+  68  OM001458    1.32%    passed     99.82%
+  69  OK254845    1.32%    passed     99.82%
+  70  OK181479    1.32%    passed     99.98%
+  71  OL133764    1.32%    passed     99.86%
+  72  OK181502    1.32%    passed     99.86%
+  73  OK649371    1.36%    passed     99.90%
+  74  MZ460699    1.36%    passed     99.93%
+  75  OM001462    1.35%    passed     99.99%
+  76  OM001345    1.32%    passed     99.96%
+  77  OK254865    2.03%    passed     99.65%
+  78  MZ629153    1.61%    passed     99.58%
+  79  OK161353    1.32%    passed     99.90%
+  80  OL638423    1.32%    passed     99.47%
+  81  OL638438    1.32%    passed     99.95%
+  82  OK539492    1.32%    passed     99.92%
+  83  OM001370    1.32%    passed     99.95%
+  84  OL961527    1.32%    passed     99.97%
+  85  OM001369    1.32%    passed     99.98%
+  86  OL638428    1.32%    passed    100.00%
+  87  OK161362    1.32%    passed    100.00%
+  88  OK161411    1.32%    passed     99.99%
+  89  MZ835611    1.32%    passed     99.97%
+  90  OL133742    1.32%    passed     99.94%
+  91  OK161357    1.32%    passed     99.35%
+  92  OK161376    1.32%    passed     99.14%
+  93  OK254843    1.32%    passed     99.93%
+  94  OK254838    1.32%    passed     99.95%
+  95  OK254877    1.32%    passed     99.97%
+  96  OK254844    1.32%    passed     99.95%
+  97  OK254873    1.32%    passed    100.00%
+  98  OK649375    1.32%    passed     99.88%
+  99  OK649421    1.32%    passed     99.88%
+ 100  OK017941    1.32%    passed     99.94%
+ 101  MZ629132    1.32%    passed     99.98%
+ 102  MZ460672    1.47%    passed     99.71%
+ 103  OK254864    1.32%    passed     99.75%
+ 104  OL961528    1.32%    passed     99.94%
+ 105  OK649415    1.32%    passed     99.82%
+ 106  OL133752    1.32%    passed     99.81%
+ 107  OK539482    1.32%    passed     99.98%
+ 108  MZ835589    1.32%    passed     99.98%
+ 109  MZ835606    1.32%    passed     99.98%
+ 110  OM001433    1.32%    passed     99.98%
+ 111  OL638404    1.32%    passed     99.45%
+ 112  OL638416    1.32%    passed     99.45%
+ 113  OL638405    1.32%    passed     99.88%
+ 114  OL961536    1.32%    passed     99.91%
+ 115  OL133749    1.32%    passed     99.98%
+ 116  OK539507    1.32%    passed     99.98%
+ 117  OM001399    1.32%    passed     99.85%
+ 118  OK649408    1.32%    passed     99.92%
+ 119  OK181452    1.36%    passed     99.79%
+ 120  OL961543    1.32%    passed     99.65%
+ 121  OM001361    1.32%    passed     99.51%
+ 122  OK017956    1.32%    passed     99.51%
+ 123  OM001376    1.32%    passed     99.65%
+ 124  OK254837    1.32%    passed     99.65%
+ 125  MZ835607    1.32%    passed     99.52%
+ 126  OK254867    1.32%    passed     99.87%
+ 127  MZ835603    1.32%    passed     99.89%
+ 128  OK254842    1.32%    passed     99.89%
+ 129  OK161383    1.32%    passed     99.87%
+ 130  OK161389    1.32%    passed     99.87%
+ 131  MZ670573    1.32%    passed     99.87%
+ 132  MZ670574    1.32%    passed     99.87%
+ 133  MZ835594    1.32%    passed     99.87%
+ 134  OK017929    1.32%    passed     99.93%
+ 135  MZ363421    1.32%    passed     99.89%
+ 136  MZ268665    1.32%    passed     99.93%
+ 137  MZ153265    1.32%    passed     99.73%
+ 138  OK181460    1.32%    passed     99.92%
+ 139  MZ835592    1.32%    passed     99.88%
+ 140  MZ460674    1.32%    passed     99.99%
+ 141  MZ268672    1.33%    passed     99.98%
+ 142  MZ268703    1.32%    passed     99.99%
+ 143  OK181477    1.32%    passed     99.61%
+ 144  OK181478    1.32%    passed     99.52%
+ 145  MZ629138    1.32%    passed     99.79%
+ 146  MZ427506    1.32%    passed     99.73%
+ 147  OK181490    1.32%    passed     99.79%
+ 148  OK017968    1.32%    passed     99.65%
+ 149  OK161369    1.32%    passed     99.96%
+ 150  MZ629152    1.32%    passed     99.93%
+ 151  OK181496    1.32%    passed     99.75%
+ 152  OL638430    1.32%    passed     99.79%
+ 153  OM001432    1.32%    passed     99.52%
+ 154  OK539489    1.32%    passed     99.37%
+ 155  OK161388    1.32%    passed     99.61%
+ 156  OM001461    1.32%    passed     99.61%
+ 157  OK254826    1.32%    passed     99.95%
+ 158  OK649383    1.32%    passed     99.95%
+ 159  OL638414    1.32%    passed     99.75%
+ 160  OK181459    1.32%    passed     99.75%
+ 161  OM001416    1.32%    passed     99.75%
+ 162  OM001441    1.32%    passed     99.89%
+ 163  OL133725    1.32%    passed     99.89%
+ 164  OK254875    1.32%    passed     99.93%
+ 165  OL638440    1.32%    passed     99.75%
+ 166  OL133755    1.32%    passed     99.75%
+ 167  OL638466    1.32%    passed     99.61%
+ 168  OM001470    1.32%    passed     99.65%
+ 169  OK539469    1.32%    passed     99.65%
+ 170  OL961519    1.32%    passed     99.52%
+ 171  OK539483    1.32%    passed     99.52%
+ 172  OL961546    1.32%    passed     99.87%
+ 173  OK539461    1.32%    passed     99.90%
+ 174  OM001468    1.63%    passed     99.12%
+ 175  OL133745    1.32%    passed     99.51%
+ 176  MZ540949    1.40%    passed     99.78%
+ 177  OK649420    1.32%    passed     99.74%
+ 178  OK161407    1.32%    passed     99.74%
+ 179  OK649423    1.32%    passed     99.75%
+ 180  MZ153280    0.06%    passed     97.86%
+ 181  OL638429    1.32%    passed     99.87%
+ 182  OM001360    1.36%    passed     99.63%
+ 183  OK649360    1.32%    passed     99.70%
+ 184  OK161408    1.42%    passed     99.74%
+ 185  OK181483    1.68%    passed     99.44%
+ 186  OK161370    1.39%    passed     99.72%
+ 187  OK181453    1.39%    passed     99.93%
+ 188  OL133729    1.32%    passed     99.51%
+ 189  OL638451    1.36%    passed     99.73%
+ 190  OM001383    1.32%    passed     99.83%
+ 191  OM001427    1.32%    passed     99.70%
+ 192  OL133763    1.32%    passed     99.91%
+ 193  OK649390    1.32%    passed     99.83%
+ 194  OK161390    1.32%    passed     99.90%
+ 195  OK181469    1.32%    passed     99.83%
+ 196  OK181474    1.32%    passed     99.83%
+ 197  MZ629118    1.32%    passed     99.93%
+ 198  OM001347    1.32%    passed     99.87%
+ 199  OK539500    1.32%    passed     99.79%
+ 200  OM001424    1.32%    passed     99.87%
+ 201  OL133759    1.32%    passed     99.50%
+ 202  OK181481    1.32%    passed     99.50%
+ 203  OK254830    1.32%    passed     99.75%
+ 204  OK017933    1.32%    passed     99.75%
+ 205  MZ268740    1.32%    passed     99.73%
+ 206  OK161361    1.32%    passed     99.52%
+ 207  OK161365    1.32%    passed     99.39%
+ 208  OK161394    1.32%    passed     99.82%
+ 209  OK649424    1.32%    passed     99.75%
+ 210  OL133731    1.32%    passed     99.75%
+ 211  OK539506    1.32%    passed     99.82%
+ 212  MZ670579    1.32%    passed     99.97%
+ 213  OK161363    1.32%    passed     99.96%
+ 214  OM001430    1.32%    passed     99.82%
+ 215  MZ268732    1.32%    passed     99.87%
+ 216  OK254857    1.32%    passed     99.82%
+ 217  OK161387    1.32%    passed     99.95%
+ 218  MZ670594    1.32%    passed     99.50%
+ 219  OK254859    1.32%    passed     99.82%
+ 220  OM001371    1.47%    passed     99.89%
+ 221  OK539470    1.32%    passed     99.97%
+ 222  OK539463    1.32%    passed     99.89%
+ 223  OM001364    1.32%    passed     99.96%
+ 224  OM001391    1.32%    passed     99.93%
+ 225  OL133727    1.43%    passed     99.96%
+ 226  OL638407    1.32%    passed     99.47%
+ 227  OK539480    1.32%    passed     99.81%
+ 228  OK649366    1.32%    passed     99.47%
+ 229  OM001357    1.32%    passed     99.82%
+ 230  OM001379    1.32%    passed     99.87%
+ 231  MZ629117    1.36%    passed     99.37%
+ 232  OL133744    1.32%    passed     99.93%
+ 233  MZ670578    1.32%    passed     99.95%
+ 234  MZ629114    1.32%    passed     99.99%
+ 235  OK539486    1.32%    passed     99.92%
+ 236  OL638450    1.32%    passed     99.92%
+ 237  OL638457    1.32%    passed     99.92%
+ 238  OK649370    1.32%    passed     99.85%
+ 239  OK649406    1.32%    passed     99.99%
+ 240  OK161395    1.40%    passed     99.90%
+ 241  OK161401    1.36%    passed     99.85%
+ 242  OK539485    1.32%    passed     99.93%
+ 243  OK649417    1.32%    passed     99.98%
+ 244  OK161405    1.32%    passed     99.94%
+ 245  MZ629124    1.39%    passed     99.95%
+ 246  OK161356    2.40%    passed     99.42%
+ 247  OM001359    1.32%    passed    100.00%
+ 248  OK539475    1.32%    passed     99.97%
+ 249  OK649382    1.32%    passed     99.97%
+ 250  MZ670582    1.32%    passed     99.99%
+ 251  OK254833    1.32%    passed     99.85%
+ 252  OM001457    1.32%    passed     99.55%
+ 253  OK254879    1.32%    passed     99.55%
+ 254  MZ629127    1.64%    passed     98.07%
+ 255  OL133737    1.32%    passed     99.65%
+ 256  OK539490    1.37%    passed     99.74%
+ 257  OM001388    1.32%    passed     99.96%
+ 258  OK181476    1.32%    passed     99.97%
+ 259  OL638436    1.32%    passed     99.17%
+ 260  OM001414    1.32%    passed     99.20%
+ 261  OL133732    1.32%    passed     99.31%
+ 262  OK181489    1.36%    passed     99.14%
+ 263  OK539481    1.32%    passed     99.85%
+ 264  OL133746    1.32%    passed     99.27%
+ 265  OK254827    1.32%    passed     99.99%
+ 266  OM001389    1.32%    passed     99.95%
+ 267  MZ835578    1.32%    passed     99.91%
+ 268  OM001410    1.32%    passed    100.00%
+ 269  OK254854    1.86%    passed     99.40%
+ 270  MZ835584    1.75%    passed     99.47%
+ 271  MK501734    0.70%    passed     85.50%
+ 272  MK501745   14.91%    passed     61.54%
+ 273  MZ629149    1.57%    passed     94.80%
+ 274  KY369898    1.99%    passed     93.54%
+ 275  JN815255    4.01%    passed     83.43%
+ 276  JN798558   12.23%    passed     83.26%
+ 277  KC881032    0.31%    passed     59.48%
+ 278  KC881033    0.28%    passed     71.74%
+ 279  KC881035    0.28%    passed     75.06%
+ 280  KC881034    0.20%    passed     68.16%
+ 281  D00239      0.06%    passed     66.41%
+****  TOTAL       1.43%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OK161412 is identical to OL133743 but kept for subsequent analysis
+NOTE: OK181498 is identical to OK649374 but kept for subsequent analysis
+NOTE: OL961523 is identical to OL638443 but kept for subsequent analysis
+NOTE: OL133728 is identical to OM001378 but kept for subsequent analysis
+NOTE: OK181470 is identical to OM001436 but kept for subsequent analysis
+NOTE: OK181473 is identical to OM001426 but kept for subsequent analysis
+NOTE: OK254845 is identical to OM001458 but kept for subsequent analysis
+NOTE: OK181502 is identical to OL133764 but kept for subsequent analysis
+NOTE: OK254844 is identical to OK254838 but kept for subsequent analysis
+NOTE: OK649421 is identical to OK649375 but kept for subsequent analysis
+NOTE: MZ835606 is identical to MZ835589 but kept for subsequent analysis
+NOTE: OL638416 is identical to OL638404 but kept for subsequent analysis
+NOTE: OK181460 is identical to OK649408 but kept for subsequent analysis
+NOTE: OK017968 is identical to OL961543 but kept for subsequent analysis
+NOTE: OK017956 is identical to OM001361 but kept for subsequent analysis
+NOTE: OM001470 is identical to OK254837 but kept for subsequent analysis
+NOTE: OL961546 is identical to OK254867 but kept for subsequent analysis
+NOTE: OK161389 is identical to OK161383 but kept for subsequent analysis
+NOTE: OM001461 is identical to OK181477 but kept for subsequent analysis
+NOTE: OM001432 is identical to OK181478 but kept for subsequent analysis
+NOTE: OL638430 is identical to OK181490 but kept for subsequent analysis
+NOTE: OK649383 is identical to OK254826 but kept for subsequent analysis
+NOTE: OK181459 is identical to OL638414 but kept for subsequent analysis
+NOTE: OL133725 is identical to OM001441 but kept for subsequent analysis
+NOTE: OK539483 is identical to OL961519 but kept for subsequent analysis
+NOTE: OK161407 is identical to OK649420 but kept for subsequent analysis
+NOTE: OK181469 is identical to OK649390 but kept for subsequent analysis
+NOTE: OK181481 is identical to OL133759 but kept for subsequent analysis
+NOTE: OK649424 is identical to OK254830 but kept for subsequent analysis
+NOTE: OK254857 is identical to OM001430 but kept for subsequent analysis
+NOTE: OL638457 is identical to OL638450 but kept for subsequent analysis
+NOTE: OK254879 is identical to OM001457 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00166798 secs using 89.09% CPU
+Identifying sites to remove: done in 0.012084 secs using 96.79% CPU
+NOTE: 16 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OL961548 (identical to OL638443) is ignored but added at the end
+NOTE: OM001396 (identical to OL638443) is ignored but added at the end
+NOTE: OK649368 (identical to OL638443) is ignored but added at the end
+NOTE: OL133754 (identical to OL638443) is ignored but added at the end
+NOTE: OK161399 (identical to OL638443) is ignored but added at the end
+NOTE: OK181456 (identical to OL638443) is ignored but added at the end
+NOTE: OK181485 (identical to OL638443) is ignored but added at the end
+NOTE: MZ835605 (identical to OL638443) is ignored but added at the end
+NOTE: OL133762 (identical to OM001378) is ignored but added at the end
+NOTE: MZ670587 (identical to OM001426) is ignored but added at the end
+NOTE: OK649411 (identical to OM001426) is ignored but added at the end
+NOTE: OK649419 (identical to OM001426) is ignored but added at the end
+NOTE: MZ670573 (identical to OK161383) is ignored but added at the end
+NOTE: MZ670574 (identical to OK161383) is ignored but added at the end
+NOTE: MZ835594 (identical to OK161383) is ignored but added at the end
+NOTE: OK181474 (identical to OK649390) is ignored but added at the end
+Alignment was printed to results/aligned_rhinovirusA_1-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_rhinovirusA_1-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -124614.894
+2. Current log-likelihood: -107659.877
+3. Current log-likelihood: -106468.264
+4. Current log-likelihood: -106467.602
+Optimal log-likelihood: -106467.133
+Rate parameters:  A-C: 1.52337  A-G: 21.00236  A-T: 2.25306  C-G: 0.97726  C-T: 39.99695  G-T: 1.00000
+Base frequencies:  A: 0.331  C: 0.183  G: 0.199  T: 0.287
+Parameters optimization took 4 rounds (1.658 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.200777 secs using 99.94% CPU
+Computing ML distances took 0.202044 sec (of wall-clock time) 0.201894 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00128794 secs using 170.2% CPU
+Constructing RapidNJ tree: done in 0.00334716 secs using 192.9% CPU
+Computing RapidNJ tree took 0.004684 sec (of wall-clock time) 0.008672 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -35791.946
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.336671 secs using 112.6% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -35767.453
+Optimizing NNI: done in 6.70507 secs using 99.14% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -35767.453 / CPU time: 7.571
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -35767.453
+Optimal log-likelihood: -35767.453
+Rate parameters:  A-C: 1.57795  A-G: 25.74252  A-T: 2.00337  C-G: 1.14621  C-T: 49.27182  G-T: 1.00000
+Base frequencies:  A: 0.331  C: 0.183  G: 0.199  T: 0.287
+Parameters optimization took 1 rounds (0.110 sec)
+BEST SCORE FOUND : -35767.453
+Total tree length: 0.648
+
+Total number of iterations: 2
+CPU time used for tree search: 7.574 sec (0h:0m:7s)
+Wall-clock time used for tree search: 7.571 sec (0h:0m:7s)
+Total CPU time used: 9.849 sec (0h:0m:9s)
+Total wall-clock time used: 9.724 sec (0h:0m:9s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_rhinovirusA_1-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_rhinovirusA_1-delim.fasta.treefile
+  Likelihood distances:          results/aligned_rhinovirusA_1-delim.fasta.mldist
+  Screen log file:               results/aligned_rhinovirusA_1-delim.fasta.log
+
+Date and Time: Tue Nov 29 15:28:53 2022

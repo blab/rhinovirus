@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+align         1              1              1
+all           1              1              1
+filter        1              1              1
+parse         1              1              1
+total         4              1              1
+
+Select jobs to execute...
+
+[Fri Dec  2 11:28:44 2022]
+Job 3: Parsing fasta into sequences and metadata
+
+[Fri Dec  2 11:28:45 2022]
+Finished job 3.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Fri Dec  2 11:28:45 2022]
+Job 2: 
+        Filtering to
+          - 1000 sequence(s) per country
+          - minimum genome length of 500
+        
+
+[Fri Dec  2 11:28:46 2022]
+Finished job 2.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Fri Dec  2 11:28:46 2022]
+Job 1: 
+        Aligning sequences to config/reference_rhinovirusA_all.gb
+          - filling gaps with N
+        
+
+Terminating processes on user request, this might take some time.
+[Fri Dec  2 11:29:42 2022]
+Error in rule align:
+    jobid: 1
+    output: results/aligned_rhinovirusA_partial_all.fasta
+    shell:
+        
+        augur align             --sequences results/filtered_rhinovirusA_partial_all.fasta             --reference-sequence config/reference_rhinovirusA_all.gb             --output results/aligned_rhinovirusA_partial_all.fasta             --remove-reference             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2022-12-02T112844.103332.snakemake.log

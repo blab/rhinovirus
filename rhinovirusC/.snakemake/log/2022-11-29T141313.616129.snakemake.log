@@ -1,0 +1,109 @@
+Building DAG of jobs...
+The params used to generate one or several output files has changed:
+    To inspect which output files have changes, run 'snakemake --list-params-changes'.
+    To trigger a re-run, use 'snakemake -R $(snakemake --list-params-changes)'.
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+all              1              1              1
+ancestral        1              1              1
+export           1              1              1
+filter           1              1              1
+parse            1              1              1
+refine           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            9              1              1
+
+Select jobs to execute...
+
+[Tue Nov 29 14:13:13 2022]
+Job 14: Parsing fasta into sequences and metadata
+
+[Tue Nov 29 14:13:14 2022]
+Finished job 14.
+1 of 9 steps (11%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:13:14 2022]
+Job 13: 
+        Filtering to
+          - 1000 sequence(s) per country
+          - minimum genome length of 6000
+        
+
+[Tue Nov 29 14:13:15 2022]
+Finished job 13.
+2 of 9 steps (22%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:13:15 2022]
+Job 12: 
+        Aligning sequences to config/reference_rhinovirusC_all.gb
+          - filling gaps with N
+        
+
+[Tue Nov 29 14:13:29 2022]
+Finished job 12.
+3 of 9 steps (33%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:13:29 2022]
+Job 11: Building tree
+
+[Tue Nov 29 14:13:31 2022]
+Finished job 11.
+4 of 9 steps (44%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:13:31 2022]
+Job 10: 
+        Refining tree
+        
+
+[Tue Nov 29 14:14:06 2022]
+Finished job 10.
+5 of 9 steps (56%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:14:06 2022]
+Job 15: Reconstructing ancestral sequences and mutations
+
+[Tue Nov 29 14:14:07 2022]
+Finished job 15.
+6 of 9 steps (67%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:14:07 2022]
+Job 16: Translating amino acid sequences
+
+[Tue Nov 29 14:14:08 2022]
+Finished job 16.
+7 of 9 steps (78%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:14:08 2022]
+Job 9: Exporting data files for for auspice
+
+[Tue Nov 29 14:14:09 2022]
+Finished job 9.
+8 of 9 steps (89%) done
+Select jobs to execute...
+
+[Tue Nov 29 14:14:09 2022]
+localrule all:
+    input: auspice/rhinovirusC_all.json, auspice/rhinovirusC_11.json
+    jobid: 0
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Tue Nov 29 14:14:09 2022]
+Finished job 0.
+9 of 9 steps (100%) done
+The params used to generate one or several output files has changed:
+    To inspect which output files have changes, run 'snakemake --list-params-changes'.
+    To trigger a re-run, use 'snakemake -R $(snakemake --list-params-changes)'.
+Complete log: .snakemake/log/2022-11-29T141313.616129.snakemake.log

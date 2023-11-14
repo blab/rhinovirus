@@ -1,0 +1,132 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_rhinovirusB_27-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    365856 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 30 19:31:26 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_rhinovirusB_27-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00499916 secs using 90.86% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00508189 secs using 76.05% CPU
+WARNING: 13 sites contain only gaps or ambiguous characters.
+Alignment has 38 sequences with 7212 columns, 388 distinct patterns
+829 parsimony-informative, 199 singleton sites, 6184 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.41753e-05 secs using 35.04% CPU
+   1  ON311185    1.84%    passed     99.93%
+   2  ON311187    1.84%    passed     99.87%
+   3  ON311186    1.84%    passed     99.69%
+   4  ON311191    1.84%    passed     99.61%
+   5  ON311192    1.84%    passed     99.61%
+   6  ON311193    1.84%    passed     99.61%
+   7  ON311202    1.84%    passed     99.75%
+   8  ON311197    1.84%    passed     99.73%
+   9  ON311201    1.84%    passed     99.73%
+  10  ON311199    2.04%    passed     99.71%
+  11  ON311189    2.25%    passed     99.90%
+  12  ON311194    1.84%    passed     99.67%
+  13  ON311196    8.93%    passed     81.57%
+  14  ON311195    4.12%    passed     99.90%
+  15  ON311188    5.30%    passed     98.97%
+  16  OK539488    1.84%    passed     99.71%
+  17  OM001423    1.86%    passed     99.80%
+  18  OK649365    1.84%    passed     99.95%
+  19  ON311190    1.84%    passed     99.83%
+  20  ON311198    1.84%    passed     99.83%
+  21  ON311200    1.84%    passed     99.83%
+  22  MZ835570    1.84%    passed     99.81%
+  23  MZ835597    1.65%    passed     99.79%
+  24  MZ363412    1.65%    passed    100.00%
+  25  MZ363452    1.65%    passed     99.99%
+  26  MW969533    1.90%    passed     99.41%
+  27  MZ629146    1.65%    passed     99.56%
+  28  OK539471    1.84%    passed     99.67%
+  29  MZ460714    1.65%    passed     99.92%
+  30  OK017939    1.65%    passed     99.89%
+  31  OK649400    2.14%    passed     99.69%
+  32  MZ153257    8.82%    passed     51.00%
+  33  KY369900    0.92%    passed     95.36%
+  34  KY369901    0.44%    passed     94.34%
+  35  JF285308    2.91%    passed     93.08%
+  36  JF285309    2.91%    passed     91.57%
+  37  FJ445186    0.19%    passed     55.10%
+  38  EF173421    0.19%    passed     56.60%
+****  TOTAL       2.27%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: ON311192 is identical to ON311191 but kept for subsequent analysis
+NOTE: ON311201 is identical to ON311197 but kept for subsequent analysis
+NOTE: ON311198 is identical to ON311190 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00011301 secs using 71.67% CPU
+Identifying sites to remove: done in 0.00404501 secs using 99.21% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: ON311193 (identical to ON311191) is ignored but added at the end
+NOTE: ON311200 (identical to ON311190) is ignored but added at the end
+Alignment was printed to results/aligned_rhinovirusB_27-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_rhinovirusB_27-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -24858.099
+2. Current log-likelihood: -22157.464
+3. Current log-likelihood: -22014.231
+Optimal log-likelihood: -22014.183
+Rate parameters:  A-C: 1.39576  A-G: 31.11714  A-T: 2.46399  C-G: 0.67045  C-T: 58.22157  G-T: 1.00000
+Base frequencies:  A: 0.334  C: 0.198  G: 0.198  T: 0.271
+Parameters optimization took 3 rounds (0.040 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00225019 secs using 87.95% CPU
+Computing ML distances took 0.002358 sec (of wall-clock time) 0.002064 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000509977 secs using 65.49% CPU
+Constructing RapidNJ tree: done in 0.000125885 secs using 189.9% CPU
+Computing RapidNJ tree took 0.000683 sec (of wall-clock time) 0.000631 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16401.823
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.00965786 secs using 184.8% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -16398.787
+Optimizing NNI: done in 0.0846021 secs using 186.3% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -16398.787 / CPU time: 0.108
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -16398.787
+Optimal log-likelihood: -16398.786
+Rate parameters:  A-C: 1.46372  A-G: 32.06235  A-T: 1.94271  C-G: 0.64885  C-T: 57.76357  G-T: 1.00000
+Base frequencies:  A: 0.334  C: 0.198  G: 0.198  T: 0.271
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -16398.786
+Total tree length: 0.179
+
+Total number of iterations: 2
+CPU time used for tree search: 0.200 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.108 sec (0h:0m:0s)
+Total CPU time used: 0.262 sec (0h:0m:0s)
+Total wall-clock time used: 0.171 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_rhinovirusB_27-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_rhinovirusB_27-delim.fasta.treefile
+  Likelihood distances:          results/aligned_rhinovirusB_27-delim.fasta.mldist
+  Screen log file:               results/aligned_rhinovirusB_27-delim.fasta.log
+
+Date and Time: Wed Nov 30 19:31:26 2022

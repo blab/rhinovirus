@@ -1,0 +1,428 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_rhinovirusB_VP3-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    930747 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Dec  2 13:06:54 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_rhinovirusB_VP3-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0340312 secs using 94.27% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0125649 secs using 88.3% CPU
+WARNING: 6504 sites contain only gaps or ambiguous characters.
+Alignment has 269 sequences with 7212 columns, 465 distinct patterns
+407 parsimony-informative, 102 singleton sites, 6703 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000247955 secs using 83.89% CPU
+   1  K02121      90.18%    passed     61.86%
+   2  L05355      90.18%    passed     57.87%
+   3  MZ629135    90.18%    passed     40.74%
+   4  MN306034    90.18%    passed     15.19%
+   5  OL365067    90.18%    passed     21.92%
+   6  OM001402    90.18%    passed     27.63%
+   7  OK649379    90.18%    passed     27.63%
+   8  OK649412    90.18%    passed     27.63%
+   9  OK161377    90.18%    passed     22.20%
+  10  OL638441    90.18%    passed     34.53%
+  11  MZ629108    90.18%    passed     32.29%
+  12  OL638421    90.18%    passed     34.03%
+  13  OM001381    90.18%    passed     34.03%
+  14  OL638447    90.18%    passed     39.25%
+  15  OL961545    90.18%    passed     39.25%
+  16  OK017964    90.18%    passed     39.25%
+  17  MZ835595    90.18%    passed     39.25%
+  18  MZ670572    90.18%    passed     39.25%
+  19  MZ835615    90.18%    passed     34.03%
+  20  MZ629150    90.18%    passed     34.03%
+  21  OL638464    90.18%    passed     39.25%
+  22  OK649359    90.18%    passed     39.25%
+  23  MZ540942    90.18%    passed     40.94%
+  24  MZ540953    90.18%    passed     40.94%
+  25  MZ835583    90.18%    passed     50.39%
+  26  OK649413    90.18%    passed     39.25%
+  27  OM001393    90.18%    passed     39.94%
+  28  OM001367    90.18%    passed     34.03%
+  29  MZ363419    90.18%    passed     39.25%
+  30  OK017937    90.18%    passed     40.94%
+  31  MZ670571    90.18%    passed     40.94%
+  32  OK161382    90.18%    passed     39.25%
+  33  MZ363443    90.18%    passed     37.67%
+  34  OK017925    90.18%    passed     47.44%
+  35  OL638410    90.18%    passed     30.34%
+  36  OM001456    90.18%    passed     32.68%
+  37  MZ153247    90.18%    passed     28.24%
+  38  OL638415    90.18%    passed     25.94%
+  39  OL638455    90.18%    passed     28.24%
+  40  OK161403    90.18%    passed     28.24%
+  41  OM001417    90.18%    passed     28.24%
+  42  OK161384    90.18%    passed     28.24%
+  43  OL961538    90.18%    passed     28.24%
+  44  OM001409    90.18%    passed     28.24%
+  45  OM001425    90.18%    passed     28.24%
+  46  OK254840    90.18%    passed     28.24%
+  47  OK254848    90.18%    passed     28.24%
+  48  OK017959    90.18%    passed     28.24%
+  49  MZ835566    90.18%    passed     22.20%
+  50  OL638445    90.18%    passed     28.24%
+  51  OK181464    90.18%    passed     28.24%
+  52  MZ670591    90.18%    passed     24.12%
+  53  MZ835567    90.18%    passed     24.12%
+  54  OM001435    90.18%    passed     25.94%
+  55  OK254841    90.18%    passed     25.94%
+  56  OL961522    90.18%    passed     25.94%
+  57  MZ629111    90.18%    passed     25.94%
+  58  OK017940    90.18%    passed     25.94%
+  59  MZ460710    90.18%    passed     25.94%
+  60  OL133761    90.18%    passed     27.63%
+  61  OK254846    90.18%    passed     30.34%
+  62  MZ153282    90.18%    passed     27.63%
+  63  OK017947    90.18%    passed     32.29%
+  64  MZ629157    90.18%    passed     27.63%
+  65  MZ460678    90.18%    passed     27.63%
+  66  MZ460680    90.18%    passed     27.63%
+  67  OK649410    90.18%    passed     21.92%
+  68  OK649426    90.18%    passed     21.92%
+  69  OK181492    90.18%    passed     25.94%
+  70  OK539502    90.18%    passed     17.04%
+  71  OK649403    90.18%    passed     39.25%
+  72  OL638435    90.18%    passed     27.76%
+  73  OK017966    90.18%    passed     27.76%
+  74  MZ427503    90.18%    passed     27.76%
+  75  OM001469    90.18%    passed     25.69%
+  76  MZ268654    90.18%    passed     29.69%
+  77  OK649394    90.18%    passed     40.94%
+  78  MZ363431    90.18%    passed     40.94%
+  79  OL133766    90.18%    passed     40.94%
+  80  MZ629116    90.18%    passed     36.75%
+  81  MZ629154    90.18%    passed     40.94%
+  82  MZ835613    90.18%    passed     55.67%
+  83  OK017962    90.18%    passed     51.36%
+  84  OL961541    90.18%    passed     42.32%
+  85  OM001447    90.18%    passed     29.92%
+  86  OK254836    90.18%    passed     29.92%
+  87  LC495296    90.18%    passed     46.62%
+  88  MZ667416    90.18%    passed      5.40%
+  89  JN562723    90.18%    passed      5.40%
+  90  JX193795    90.18%    passed     10.90%
+  91  JQ747745    90.18%    passed     18.69%
+  92  JQ747748    90.18%    passed     12.15%
+  93  JN815243    90.18%    passed     18.30%
+  94  OK649398    90.18%    passed     15.90%
+  95  DQ473486    90.18%    failed      3.17%
+  96  JQ994497    90.18%    passed      5.30%
+  97  JQ837721    90.18%    passed      5.48%
+  98  JN614996    90.18%    passed      5.48%
+  99  JQ837717    90.18%    passed     11.00%
+ 100  JQ245972    90.18%    passed     11.00%
+ 101  JN815239    90.18%    passed      6.27%
+ 102  JN798572    90.18%    passed     15.11%
+ 103  MK989746    90.18%    passed     18.30%
+ 104  KX348030    90.18%    passed     16.98%
+ 105  EF173423    90.18%    passed      8.19%
+ 106  OM001374    90.18%    failed      3.22%
+ 107  OK017965    90.18%    failed      3.22%
+ 108  MZ460671    90.18%    failed      3.22%
+ 109  MZ322924    90.18%    failed      3.22%
+ 110  OM001380    90.18%    failed      2.55%
+ 111  MF118142    90.18%    failed      2.40%
+ 112  KY684757    90.18%    failed      2.40%
+ 113  KY967365    90.18%    failed      2.18%
+ 114  MK989744    90.18%    failed      4.87%
+ 115  JF285329    90.18%    failed      4.07%
+ 116  JF285330    90.18%    failed      4.07%
+ 117  JF285331    90.18%    failed      4.74%
+ 118  NC_038312   90.18%    passed      9.12%
+ 119  DQ473485    90.18%    passed      9.12%
+ 120  EF173422    90.18%    passed      9.12%
+ 121  ON311181    90.18%    passed      7.27%
+ 122  ON311275    90.18%    passed      7.27%
+ 123  JX074053    90.18%    failed      4.18%
+ 124  MZ629139    90.18%    failed      2.51%
+ 125  MZ629141    90.18%    failed      2.67%
+ 126  MZ629178    90.18%    failed      2.67%
+ 127  MZ153262    90.18%    failed      2.53%
+ 128  MK989742    90.18%    failed      1.72%
+ 129  MZ629169    90.18%    failed      1.83%
+ 130  MN369044    90.18%    failed      1.32%
+ 131  JX074052    90.18%    failed      4.43%
+ 132  JF781500    90.18%    failed      2.90%
+ 133  JF781501    90.18%    failed      2.56%
+ 134  FJ445187    90.18%    passed      9.30%
+ 135  DQ473487    90.18%    passed      9.30%
+ 136  ON989189    90.18%    failed      1.25%
+ 137  ON989194    90.18%    failed      1.82%
+ 138  MT512399    90.18%    failed      1.20%
+ 139  MK989747    90.18%    failed      1.46%
+ 140  FJ445155    90.18%    failed      1.18%
+ 141  MN306025    90.18%    failed      0.44%
+ 142  JN990701    90.18%    failed      1.35%
+ 143  FJ445161    90.20%    failed      0.76%
+ 144  FJ445169    90.18%    passed     14.70%
+ 145  MK989743    90.18%    passed     17.20%
+ 146  KY189314    90.18%    passed     30.80%
+ 147  KF958309    90.18%    passed      7.23%
+ 148  JN614997    90.18%    passed      7.23%
+ 149  JN798562    90.18%    passed      7.27%
+ 150  GU968948    90.18%    passed      9.02%
+ 151  JN562726    90.18%    passed     14.12%
+ 152  JQ245969    90.18%    passed     11.44%
+ 153  FJ445153    90.18%    passed     11.97%
+ 154  MH828514    90.18%    failed      0.52%
+ 155  FJ445164    90.18%    failed      0.51%
+ 156  MN369039    90.18%    passed      6.36%
+ 157  MN369041    90.18%    passed      6.36%
+ 158  MN369043    90.18%    passed     10.77%
+ 159  HQ123444    90.18%    passed     10.99%
+ 160  JQ245970    90.18%    passed     21.62%
+ 161  JN562721    90.18%    passed     14.27%
+ 162  HQ123445    90.18%    passed     32.58%
+ 163  FJ445151    90.18%    passed     35.39%
+ 164  MH828513    90.18%    passed     22.11%
+ 165  JQ245974    90.18%    passed     15.66%
+ 166  JX074054    90.18%    passed     46.87%
+ 167  JN990706    90.18%    passed     46.87%
+ 168  OL961525    90.18%    passed     26.64%
+ 169  OM001422    90.18%    passed     26.17%
+ 170  MK501735    90.18%    passed     35.94%
+ 171  MK501737    90.18%    passed     35.94%
+ 172  KY369903    90.18%    passed     37.20%
+ 173  KY369902    90.18%    passed     27.48%
+ 174  DQ473489    90.18%    passed     34.09%
+ 175  EF173420    90.18%    passed     49.66%
+ 176  OL961542    90.18%    passed     33.54%
+ 177  MZ153267    90.18%    passed     28.03%
+ 178  MZ268667    90.18%    passed     29.08%
+ 179  FJ445168    90.20%    passed     22.63%
+ 180  KX494871    90.18%    passed     64.10%
+ 181  ON311183    90.18%    passed     36.99%
+ 182  ON311184    90.18%    passed     36.99%
+ 183  MK989741    90.18%    passed     17.10%
+ 184  MK989745    90.18%    passed      8.81%
+ 185  KX348032    90.18%    passed      9.79%
+ 186  KX348029    90.18%    passed      9.79%
+ 187  JN990698    90.18%    passed      8.74%
+ 188  KY348863    90.18%    passed     11.75%
+ 189  DQ473488    90.18%    passed     15.12%
+ 190  OL770290    90.18%    passed     44.35%
+ 191  OL770291    90.18%    passed     44.35%
+ 192  KF958308    90.18%    passed     35.75%
+ 193  JF781506    90.18%    passed     35.75%
+ 194  FJ445137    90.18%    passed     64.58%
+ 195  FJ445188    90.18%    passed     29.04%
+ 196  EF173424    90.18%    passed     29.04%
+ 197  ON311185    90.18%    failed      2.21%
+ 198  ON311187    90.18%    failed      2.12%
+ 199  ON311186    90.18%    failed      2.12%
+ 200  OM001423    90.18%    failed      2.12%
+ 201  MZ363412    90.18%    failed      2.12%
+ 202  MZ835570    90.18%    failed      2.85%
+ 203  OK539471    90.18%    failed      2.21%
+ 204  ON311191    90.18%    failed      1.56%
+ 205  ON311192    90.18%    failed      1.56%
+ 206  ON311193    90.18%    failed      1.56%
+ 207  ON311197    90.18%    failed      1.56%
+ 208  ON311201    90.18%    failed      1.56%
+ 209  ON311199    90.18%    failed      1.56%
+ 210  ON311202    90.18%    failed      1.14%
+ 211  OK539488    90.18%    failed      2.97%
+ 212  MZ363452    90.18%    failed      2.21%
+ 213  OK649365    90.18%    failed      2.71%
+ 214  ON311190    90.18%    failed      1.14%
+ 215  ON311198    90.18%    failed      1.14%
+ 216  ON311200    90.18%    failed      1.14%
+ 217  MZ629146    90.18%    failed      2.12%
+ 218  OK017939    90.18%    failed      1.31%
+ 219  MZ153257    90.18%    failed      0.95%
+ 220  MW969533    90.18%    failed      2.02%
+ 221  ON311189    90.18%    failed      3.19%
+ 222  ON311194    90.18%    failed      3.19%
+ 223  ON311196    90.20%    failed      3.59%
+ 224  ON311195    90.18%    failed      3.19%
+ 225  ON311188    90.18%    failed      3.19%
+ 226  MZ835597    90.18%    failed      2.12%
+ 227  OK649400    90.18%    failed      2.39%
+ 228  MZ460714    90.18%    failed      3.22%
+ 229  KY369900    90.18%    failed      4.18%
+ 230  KY369901    90.18%    failed      2.91%
+ 231  JF285308    90.18%    failed      1.27%
+ 232  JF285309    90.18%    failed      1.33%
+ 233  FJ445186    90.18%    passed      5.20%
+ 234  EF173421    90.18%    passed      5.20%
+ 235  EF173425    90.18%    failed      2.75%
+ 236  MZ667418    90.18%    failed      1.13%
+ 237  KY189317    90.18%    passed      7.08%
+ 238  KY369883    90.18%    passed      7.08%
+ 239  FJ445172    90.18%    passed     11.06%
+ 240  MH899592    90.18%    passed      7.26%
+ 241  ON311182    90.18%    failed      4.28%
+ 242  JQ837723    90.36%    failed      1.97%
+ 243  JN614991    90.18%    failed      1.11%
+ 244  JF781499    90.18%    failed      1.82%
+ 245  JF781502    90.18%    failed      1.82%
+ 246  JN541271    90.18%    failed      1.20%
+ 247  JN798588    91.20%    failed      3.87%
+ 248  JX074048    90.90%    failed      1.05%
+ 249  KX433159    90.18%    failed      0.85%
+ 250  KX351793    90.18%    failed      1.74%
+ 251  FJ445162    90.18%    failed      1.86%
+ 252  MH828512    90.18%    passed     65.71%
+ 253  JN798573    90.18%    passed     91.74%
+ 254  MZ629155    90.18%    passed     41.03%
+ 255  MN212904    90.18%    passed     82.75%
+ 256  KY369899    90.18%    passed     54.14%
+ 257  DQ473490    90.18%    passed     51.09%
+ 258  OL961520    90.18%    passed     20.73%
+ 259  MN306037    90.18%    passed     28.00%
+ 260  JN562724    90.18%    passed     23.36%
+ 261  KX433168    90.18%    passed     30.27%
+ 262  GU568096    90.18%    passed     23.36%
+ 263  JF781498    90.18%    passed     26.40%
+ 264  JF781507    90.18%    passed     21.29%
+ 265  FJ445130    90.18%    failed      2.32%
+ 266  FJ445112    90.18%    passed      9.76%
+ 267  FJ445174    90.20%    failed      2.49%
+ 268  FJ445124    90.18%    passed     44.00%
+ 269  KX348031    90.22%    passed     60.09%
+WARNING: 269 sequences contain more than 50% gaps/ambiguity
+****  TOTAL       90.19%  85 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OK649379 is identical to OM001402 but kept for subsequent analysis
+NOTE: OM001381 is identical to OL638421 but kept for subsequent analysis
+NOTE: OL961545 is identical to OL638447 but kept for subsequent analysis
+NOTE: MZ629150 is identical to MZ835615 but kept for subsequent analysis
+NOTE: OK649359 is identical to OL638464 but kept for subsequent analysis
+NOTE: MZ540953 is identical to MZ540942 but kept for subsequent analysis
+NOTE: OK161403 is identical to OL638455 but kept for subsequent analysis
+NOTE: OK181464 is identical to OL638445 but kept for subsequent analysis
+NOTE: MZ835567 is identical to MZ670591 but kept for subsequent analysis
+NOTE: OK254841 is identical to OM001435 but kept for subsequent analysis
+NOTE: MZ460678 is identical to MZ629157 but kept for subsequent analysis
+NOTE: OK649426 is identical to OK649410 but kept for subsequent analysis
+NOTE: OK017966 is identical to OL638435 but kept for subsequent analysis
+NOTE: MZ363431 is identical to OK649394 but kept for subsequent analysis
+NOTE: OK254836 is identical to OM001447 but kept for subsequent analysis
+NOTE: JN614996 is identical to JQ837721 but kept for subsequent analysis
+NOTE: JQ245972 is identical to JQ837717 but kept for subsequent analysis
+NOTE: OK017965 is identical to OM001374 but kept for subsequent analysis
+NOTE: KY684757 is identical to MF118142 but kept for subsequent analysis
+NOTE: JF285330 is identical to JF285329 but kept for subsequent analysis
+NOTE: DQ473485 is identical to NC_038312 but kept for subsequent analysis
+NOTE: ON311275 is identical to ON311181 but kept for subsequent analysis
+NOTE: MZ629178 is identical to MZ629141 but kept for subsequent analysis
+NOTE: DQ473487 is identical to FJ445187 but kept for subsequent analysis
+NOTE: JN614997 is identical to KF958309 but kept for subsequent analysis
+NOTE: MN369041 is identical to MN369039 but kept for subsequent analysis
+NOTE: JN990706 is identical to JX074054 but kept for subsequent analysis
+NOTE: MK501737 is identical to MK501735 but kept for subsequent analysis
+NOTE: ON311184 is identical to ON311183 but kept for subsequent analysis
+NOTE: KX348029 is identical to KX348032 but kept for subsequent analysis
+NOTE: OL770291 is identical to OL770290 but kept for subsequent analysis
+NOTE: JF781506 is identical to KF958308 but kept for subsequent analysis
+NOTE: EF173424 is identical to FJ445188 but kept for subsequent analysis
+NOTE: ON311186 is identical to ON311187 but kept for subsequent analysis
+NOTE: ON311192 is identical to ON311191 but kept for subsequent analysis
+NOTE: ON311198 is identical to ON311190 but kept for subsequent analysis
+NOTE: ON311194 is identical to ON311189 but kept for subsequent analysis
+NOTE: EF173421 is identical to FJ445186 but kept for subsequent analysis
+NOTE: JF781502 is identical to JF781499 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00102496 secs using 77.66% CPU
+Identifying sites to remove: done in 0.010448 secs using 98.04% CPU
+NOTE: 29 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OK649412 (identical to OM001402) is ignored but added at the end
+NOTE: OK017964 (identical to OL638447) is ignored but added at the end
+NOTE: MZ835595 (identical to OL638447) is ignored but added at the end
+NOTE: OM001417 (identical to OL638455) is ignored but added at the end
+NOTE: OK161384 (identical to OL638455) is ignored but added at the end
+NOTE: OL961538 (identical to OL638455) is ignored but added at the end
+NOTE: OM001409 (identical to OL638455) is ignored but added at the end
+NOTE: OM001425 (identical to OL638455) is ignored but added at the end
+NOTE: OK254840 (identical to OL638455) is ignored but added at the end
+NOTE: OK254848 (identical to OL638455) is ignored but added at the end
+NOTE: OK017959 (identical to OL638455) is ignored but added at the end
+NOTE: OL961522 (identical to OM001435) is ignored but added at the end
+NOTE: MZ629111 (identical to OM001435) is ignored but added at the end
+NOTE: OK017940 (identical to OM001435) is ignored but added at the end
+NOTE: MZ460710 (identical to OM001435) is ignored but added at the end
+NOTE: MZ460680 (identical to MZ629157) is ignored but added at the end
+NOTE: MZ427503 (identical to OL638435) is ignored but added at the end
+NOTE: MZ460671 (identical to OM001374) is ignored but added at the end
+NOTE: MZ322924 (identical to OM001374) is ignored but added at the end
+NOTE: EF173422 (identical to NC_038312) is ignored but added at the end
+NOTE: OM001423 (identical to ON311187) is ignored but added at the end
+NOTE: MZ363412 (identical to ON311187) is ignored but added at the end
+NOTE: ON311193 (identical to ON311191) is ignored but added at the end
+NOTE: ON311197 (identical to ON311191) is ignored but added at the end
+NOTE: ON311201 (identical to ON311191) is ignored but added at the end
+NOTE: ON311199 (identical to ON311191) is ignored but added at the end
+NOTE: ON311200 (identical to ON311190) is ignored but added at the end
+NOTE: ON311195 (identical to ON311189) is ignored but added at the end
+NOTE: ON311188 (identical to ON311189) is ignored but added at the end
+Alignment was printed to results/aligned_rhinovirusB_VP3-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_rhinovirusB_VP3-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -145882.383
+2. Current log-likelihood: -98616.837
+3. Current log-likelihood: -98386.796
+4. Current log-likelihood: -98385.256
+Optimal log-likelihood: -98385.056
+Rate parameters:  A-C: 2.52485  A-G: 4.34265  A-T: 3.01081  C-G: 0.74833  C-T: 4.72235  G-T: 1.00000
+Base frequencies:  A: 0.289  C: 0.240  G: 0.214  T: 0.257
+Parameters optimization took 4 rounds (0.352 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0757301 secs using 99.61% CPU
+Computing ML distances took 0.076205 sec (of wall-clock time) 0.075771 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000987053 secs using 183.2% CPU
+Constructing RapidNJ tree: done in 0.00213695 secs using 192.1% CPU
+Computing RapidNJ tree took 0.003172 sec (of wall-clock time) 0.005940 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -26193.920
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.127782 secs using 165.7% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -25620.846
+Optimizing NNI: done in 1.48848 secs using 99.75% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -25620.846 / CPU time: 1.928
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -25620.846
+Optimal log-likelihood: -25620.845
+Rate parameters:  A-C: 2.97911  A-G: 12.70218  A-T: 5.15882  C-G: 0.91145  C-T: 18.77722  G-T: 1.00000
+Base frequencies:  A: 0.289  C: 0.240  G: 0.214  T: 0.257
+Parameters optimization took 1 rounds (0.030 sec)
+BEST SCORE FOUND : -25620.845
+Total tree length: 8.849
+
+Total number of iterations: 2
+CPU time used for tree search: 2.014 sec (0h:0m:2s)
+Wall-clock time used for tree search: 1.928 sec (0h:0m:1s)
+Total CPU time used: 2.706 sec (0h:0m:2s)
+Total wall-clock time used: 2.533 sec (0h:0m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_rhinovirusB_VP3-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_rhinovirusB_VP3-delim.fasta.treefile
+  Likelihood distances:          results/aligned_rhinovirusB_VP3-delim.fasta.mldist
+  Screen log file:               results/aligned_rhinovirusB_VP3-delim.fasta.log
+
+Date and Time: Fri Dec  2 13:06:57 2022

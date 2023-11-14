@@ -1,0 +1,82 @@
+rule all:
+    input:
+        auspice_json = "results/aligned_rhinovirusC_partial.fasta"
+
+rule files:
+    params:
+        reference = "config/reference_rhinovirusC_all.gb",
+        auspice_config = "config/auspice_config_all.json",
+        dropped_strains = "config/dropped_strains_rhinovirusC_all.txt"
+
+
+files = rules.files.params
+
+
+rule parse:
+    message: "Parsing fasta into sequences and metadata"
+    input:
+        sequences = 'data/rhinovirusC_partialcds_all.fasta'
+    output:
+        sequences = "results/sequences_rhinovirusC_partial.fasta",
+        metadata = "results/metadata_rhinovirusC_partial.tsv"
+    params:
+        #strain will be accession number
+        fasta_fields = "strain strain_name date country host subtype",
+    shell:
+        """
+        augur parse \
+            --sequences {input.sequences} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} \
+            --fields {params.fasta_fields} \
+        """
+
+rule filter:
+    message:
+        """
+        Filtering to
+          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          - minimum genome length of {params.min_length}
+        """
+    input:
+        sequences = rules.parse.output.sequences,
+        metadata = rules.parse.output.metadata,
+        exclude = files.dropped_strains
+    output:
+        sequences = "results/filtered_rhinovirusC_partial.fasta"
+    params:
+        group_by = "country",
+        sequences_per_group = 1000,
+        min_length = 500
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude {input.exclude} \
+            --output {output.sequences} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --min-length {params.min_length}
+        """
+
+rule align:
+    message:
+        """
+        Aligning sequences to {input.reference}
+          - filling gaps with N
+        """
+    input:
+        sequences = rules.filter.output.sequences,
+        reference = files.reference
+    output:
+        alignment = "results/aligned_rhinovirusC_partial.fasta"
+    shell:
+        """
+        augur align \
+            --sequences {input.sequences} \
+            --reference-sequence {input.reference} \
+            --output {output.alignment} \
+            --remove-reference \
+            --fill-gaps
+        """

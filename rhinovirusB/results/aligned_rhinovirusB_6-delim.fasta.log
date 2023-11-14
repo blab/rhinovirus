@@ -1,0 +1,180 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_rhinovirusB_6-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    622164 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 30 19:46:35 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_rhinovirusB_6-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0110688 secs using 93.61% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00657201 secs using 80.11% CPU
+WARNING: 5 sites contain only gaps or ambiguous characters.
+Alignment has 90 sequences with 7212 columns, 1008 distinct patterns
+892 parsimony-informative, 509 singleton sites, 5811 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000240088 secs using 49.15% CPU
+   1  OL365067    0.92%    passed     99.79%
+   2  OM001402    0.92%    passed     99.85%
+   3  OK649379    0.92%    passed     99.85%
+   4  OK649412    1.01%    passed     99.86%
+   5  OK161377    0.92%    passed     99.99%
+   6  OL638441    0.92%    passed     99.97%
+   7  MZ629108    0.92%    passed     99.96%
+   8  OL638410    0.92%    passed     99.28%
+   9  OM001456    0.92%    passed     99.93%
+  10  OL638415    0.92%    passed     99.59%
+  11  OL638455    0.92%    passed     99.78%
+  12  OK161403    0.92%    passed     99.78%
+  13  OM001417    0.92%    passed     99.73%
+  14  OK161384    0.92%    passed     99.73%
+  15  OL961538    0.92%    passed     99.96%
+  16  OM001409    0.92%    passed     99.95%
+  17  OM001425    0.92%    passed     99.94%
+  18  OK254840    1.21%    passed     99.97%
+  19  OK254848    1.21%    passed     99.96%
+  20  OK017959    0.61%    passed     99.91%
+  21  MZ153247    0.92%    passed     99.43%
+  22  MZ835566    0.92%    passed     99.71%
+  23  OK649410    0.92%    passed     99.57%
+  24  OK649426    0.92%    passed     99.57%
+  25  OK181492    0.92%    passed     99.63%
+  26  OL638445    0.92%    passed     99.97%
+  27  OK181464    0.92%    passed     99.97%
+  28  OM001435    0.92%    passed     99.66%
+  29  OK254841    1.21%    passed     99.81%
+  30  MZ670591    0.92%    passed     99.77%
+  31  MZ835567    0.92%    passed     99.59%
+  32  OL133761    0.92%    passed     99.87%
+  33  OK539502    0.92%    passed     99.77%
+  34  OL961522    0.92%    passed     99.75%
+  35  MZ629111    0.92%    passed     99.74%
+  36  OK017940    0.65%    passed     99.61%
+  37  OK017947    0.61%    passed     98.89%
+  38  MZ629157    0.68%    passed     99.87%
+  39  MZ460678    0.61%    passed     99.52%
+  40  MZ460680    0.61%    passed     99.54%
+  41  MZ460710    0.61%    passed     99.75%
+  42  OK254846    1.21%    passed     99.89%
+  43  MZ153282    0.61%    passed     99.94%
+  44  OL638421    0.92%    passed     99.66%
+  45  OM001381    0.92%    passed     99.58%
+  46  OK161382    1.14%    passed     99.46%
+  47  MZ835613    0.92%    passed     98.72%
+  48  OL638447    0.92%    passed     99.97%
+  49  OL961545    0.96%    passed     99.98%
+  50  OK017964    1.21%    passed     99.95%
+  51  MZ835595    0.92%    passed     99.89%
+  52  MZ670572    0.92%    passed     99.94%
+  53  OM001393    0.92%    passed     99.83%
+  54  MZ835615    1.23%    passed     99.71%
+  55  MZ629150    1.22%    passed     99.98%
+  56  MZ540942    1.22%    passed     99.55%
+  57  MZ540953    1.22%    passed     99.55%
+  58  OL638464    0.92%    passed     98.75%
+  59  OK649359    0.92%    passed     99.32%
+  60  OK017925    1.21%    passed     97.77%
+  61  MZ363443    1.21%    passed     97.28%
+  62  MZ835583    0.92%    passed     98.94%
+  63  OK649413    1.01%    passed     97.73%
+  64  OM001367    0.92%    passed     98.16%
+  65  OK017937    1.21%    passed     97.92%
+  66  MZ363419    1.21%    passed     99.33%
+  67  OK649403    1.14%    passed     97.89%
+  68  MZ670571    0.92%    passed     99.84%
+  69  OK017962    1.21%    passed     98.69%
+  70  OL961541    0.92%    passed     99.83%
+  71  OM001447    0.92%    passed     99.92%
+  72  OK254836    1.21%    passed     99.95%
+  73  OK649394    0.92%    passed     99.59%
+  74  OL133766    0.92%    passed     99.68%
+  75  MZ629116    1.21%    passed     99.67%
+  76  MZ363431    1.21%    passed     99.21%
+  77  MZ629154    1.21%    passed     99.83%
+  78  OL638435    0.92%    passed     98.85%
+  79  OM001469    0.92%    passed     98.02%
+  80  OK017966    1.21%    passed     98.18%
+  81  MZ427503    1.21%    passed     99.14%
+  82  MZ268654    1.25%    passed     99.36%
+  83  LC495296    0.07%    passed     88.75%
+  84  MZ667416    0.33%    passed     98.23%
+  85  JN562723    4.48%    passed     88.50%
+  86  JX193795    5.80%    passed     73.55%
+  87  JQ747745    4.44%    passed     91.61%
+  88  JQ747748    7.81%    passed     86.14%
+  89  JN815243   13.28%    passed     78.14%
+  90  OK649398    4.48%    passed     95.54%
+****  TOTAL       1.34%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OK649379 is identical to OM001402 but kept for subsequent analysis
+NOTE: OK161403 is identical to OL638455 but kept for subsequent analysis
+NOTE: OK161384 is identical to OM001417 but kept for subsequent analysis
+NOTE: OK649426 is identical to OK649410 but kept for subsequent analysis
+NOTE: OK181464 is identical to OL638445 but kept for subsequent analysis
+NOTE: MZ540953 is identical to MZ540942 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000339985 secs using 82.65% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -52559.233
+2. Current log-likelihood: -46184.094
+3. Current log-likelihood: -46133.987
+Optimal log-likelihood: -46133.964
+Rate parameters:  A-C: 0.99056  A-G: 19.10388  A-T: 1.34084  C-G: 0.25929  C-T: 42.05189  G-T: 1.00000
+Base frequencies:  A: 0.329  C: 0.202  G: 0.199  T: 0.270
+Parameters optimization took 3 rounds (0.343 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0150311 secs using 98.38% CPU
+Computing ML distances took 0.015492 sec (of wall-clock time) 0.015031 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000176907 secs using 176.9% CPU
+Constructing RapidNJ tree: done in 0.000360966 secs using 184.5% CPU
+Computing RapidNJ tree took 0.000569 sec (of wall-clock time) 0.001048 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -23778.852
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.066421 secs using 197% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -23743.471
+Optimizing NNI: done in 0.790374 secs using 99.79% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -23743.471 / CPU time: 0.986
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -23743.471
+Optimal log-likelihood: -23743.470
+Rate parameters:  A-C: 1.09660  A-G: 24.35167  A-T: 1.69596  C-G: 0.54973  C-T: 50.01498  G-T: 1.00000
+Base frequencies:  A: 0.329  C: 0.202  G: 0.199  T: 0.270
+Parameters optimization took 1 rounds (0.026 sec)
+BEST SCORE FOUND : -23743.470
+Total tree length: 0.305
+
+Total number of iterations: 2
+CPU time used for tree search: 1.161 sec (0h:0m:1s)
+Wall-clock time used for tree search: 0.987 sec (0h:0m:0s)
+Total CPU time used: 1.586 sec (0h:0m:1s)
+Total wall-clock time used: 1.418 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_rhinovirusB_6-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_rhinovirusB_6-delim.fasta.treefile
+  Likelihood distances:          results/aligned_rhinovirusB_6-delim.fasta.mldist
+  Screen log file:               results/aligned_rhinovirusB_6-delim.fasta.log
+
+Date and Time: Wed Nov 30 19:46:37 2022

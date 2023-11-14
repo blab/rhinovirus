@@ -1,0 +1,244 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.attlocal.net (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_rhinovirusA_101-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    315782 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov 29 15:28:26 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_rhinovirusA_101-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0186741 secs using 94.84% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0091269 secs using 82.39% CPU
+WARNING: 35 sites contain only gaps or ambiguous characters.
+Alignment has 145 sequences with 7137 columns, 1247 distinct patterns
+1358 parsimony-informative, 281 singleton sites, 5498 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00031209 secs using 96.45% CPU
+   1  ON729339    0.70%    passed     90.11%
+   2  KY369889    0.70%    passed     86.07%
+   3  KY369892    1.82%    passed     91.71%
+   4  KY369897    2.26%    passed     93.75%
+   5  OL638458    1.18%    passed     85.19%
+   6  OK161393    1.19%    passed     88.45%
+   7  MZ629110    1.19%    passed     85.34%
+   8  OM001406    1.18%    passed     90.87%
+   9  OM001440    1.18%    passed     90.87%
+  10  OK181471    1.18%    passed     90.87%
+  11  MZ835582    1.18%    passed     91.60%
+  12  MZ629182    1.18%    passed     88.60%
+  13  JQ245965    5.39%    passed     80.24%
+  14  GQ415051    0.60%    passed     68.22%
+  15  OK017936    1.68%    passed     76.32%
+  16  MZ629112    2.06%    passed     84.98%
+  17  MW713751    3.73%    passed     98.20%
+  18  MW713752    3.74%    passed     98.74%
+  19  ON311203    1.88%    passed     99.91%
+  20  ON311205    1.88%    passed     99.91%
+  21  ON311204    1.89%    passed     99.93%
+  22  OM001398    1.88%    passed     99.87%
+  23  OM001420    1.88%    passed     99.82%
+  24  OM001454    1.88%    passed     99.85%
+  25  OL638437    1.88%    passed     99.78%
+  26  OM001431    1.88%    passed     99.68%
+  27  OK181503    1.39%    passed     99.93%
+  28  OK161375    1.39%    passed     99.93%
+  29  MZ835602    1.39%    passed     99.92%
+  30  OK161380    1.39%    passed     99.97%
+  31  MZ835590    1.39%    passed    100.00%
+  32  MZ835575    1.39%    passed     99.92%
+  33  OK161385    1.39%    passed     99.99%
+  34  OK181458    1.39%    passed     99.83%
+  35  MZ835585    1.39%    passed     99.72%
+  36  OL133736    1.88%    passed     99.74%
+  37  OK181495    1.39%    passed     99.97%
+  38  MZ670580    1.39%    passed     99.99%
+  39  MZ670585    1.39%    passed     99.99%
+  40  MZ835569    1.39%    passed     99.99%
+  41  MZ835586    1.39%    passed     99.99%
+  42  OL961539    1.88%    passed     99.87%
+  43  OM001372    1.88%    passed     99.68%
+  44  MZ835568    1.39%    passed     99.97%
+  45  OK539510    2.12%    passed     99.79%
+  46  OK539514    2.06%    passed     99.10%
+  47  OK254852    1.29%    passed     99.97%
+  48  OK017932    1.29%    passed     99.99%
+  49  MZ460676    1.29%    passed    100.00%
+  50  MZ629176    1.29%    passed    100.00%
+  51  MZ460689    1.29%    passed     99.99%
+  52  MZ629167    1.29%    passed    100.00%
+  53  MZ629151    1.29%    passed     99.97%
+  54  OK017960    1.36%    passed    100.00%
+  55  OK017943    1.29%    passed     99.99%
+  56  MZ363455    1.29%    passed     99.98%
+  57  MZ629156    1.29%    passed     99.98%
+  58  OK017963    1.29%    passed     99.99%
+  59  MZ629174    1.29%    passed     99.99%
+  60  MZ363468    1.29%    passed     99.99%
+  61  MZ629136    1.29%    passed    100.00%
+  62  MZ363425    1.29%    passed     99.99%
+  63  MZ268690    1.26%    passed     99.99%
+  64  MZ629140    1.30%    passed     99.96%
+  65  MZ629166    1.29%    passed     99.95%
+  66  OK017912    1.81%    passed     99.89%
+  67  MZ670595    1.16%    passed     99.95%
+  68  MZ221151    1.16%    passed     99.98%
+  69  MW969532    1.65%    passed     99.86%
+  70  OK649385    1.91%    passed     99.90%
+  71  MZ629121    1.29%    passed     99.97%
+  72  OK254878    1.29%    passed     99.81%
+  73  OK649389    1.44%    passed     97.86%
+  74  MZ629133    1.29%    passed     97.41%
+  75  MW969531    1.26%    passed     97.97%
+  76  MZ153263    1.26%    passed     98.37%
+  77  MZ153264    1.12%    passed     99.48%
+  78  MZ153272    1.23%    passed     99.27%
+  79  MZ363426    1.29%    passed     96.98%
+  80  MZ221152    1.26%    passed     96.96%
+  81  MZ835591    1.30%    passed     98.37%
+  82  MZ268713    1.26%    passed     99.67%
+  83  MZ268725    1.26%    passed     99.67%
+  84  MZ322920    1.28%    passed     99.61%
+  85  OM001460    1.88%    passed     94.79%
+  86  OK254876    1.29%    passed     97.69%
+  87  MZ629163    1.29%    passed     99.82%
+  88  MZ268658    1.29%    passed     99.77%
+  89  OK539496    1.39%    passed     99.94%
+  90  OL638412    1.88%    passed     98.52%
+  91  OK161373    1.39%    passed     99.15%
+  92  MZ322923    1.26%    passed     99.40%
+  93  OL638465    1.86%    passed     96.06%
+  94  OM001353    1.86%    passed     96.06%
+  95  MZ835587    1.37%    passed     97.84%
+  96  OK539466    1.88%    passed     97.57%
+  97  OL133738    1.88%    passed     98.15%
+  98  OK539511    2.14%    passed     97.26%
+  99  OL133757    2.06%    passed     96.53%
+ 100  OK254832    1.29%    passed     99.48%
+ 101  OK017911    1.29%    passed     99.39%
+ 102  OK017928    1.29%    passed     98.86%
+ 103  MZ629125    1.29%    passed     99.44%
+ 104  MZ363415    1.29%    passed     98.93%
+ 105  MZ363433    1.29%    passed     98.93%
+ 106  MZ540946    1.29%    passed     98.57%
+ 107  MZ460706    1.29%    passed     98.39%
+ 108  MZ460708    1.29%    passed     98.39%
+ 109  MZ268660    1.26%    passed     99.34%
+ 110  MZ268719    1.26%    passed     99.08%
+ 111  MZ363438    1.29%    passed     99.31%
+ 112  OK017958    1.47%    passed     97.70%
+ 113  OK254866    1.28%    passed     98.37%
+ 114  MZ629119    1.28%    passed     98.41%
+ 115  MZ629126    1.28%    passed     98.75%
+ 116  OK254847    1.29%    passed     99.46%
+ 117  OK254849    1.29%    passed     99.65%
+ 118  OK161397    1.39%    passed     99.08%
+ 119  OK539474    1.42%    passed     99.89%
+ 120  MZ268649    1.28%    passed     99.23%
+ 121  OM001450    1.88%    passed     99.72%
+ 122  MZ629105    1.37%    passed     99.81%
+ 123  OK161410    1.37%    passed     99.94%
+ 124  KY189315    1.39%    passed     99.94%
+ 125  KY369891    1.82%    passed     99.19%
+ 126  MW713753    3.73%    passed     98.05%
+ 127  MW713754    3.84%    passed     98.55%
+ 128  MW713755    3.84%    passed     98.33%
+ 129  MK989735    0.77%    passed     98.80%
+ 130  OM001363    2.14%    passed     94.73%
+ 131  MZ835593    1.72%    passed     93.85%
+ 132  OM001413    2.14%    passed     94.86%
+ 133  OK254881    1.12%    passed     91.70%
+ 134  MZ835604    1.20%    passed     95.18%
+ 135  OK539472    2.14%    passed     93.02%
+ 136  OK539473    1.37%    passed     94.37%
+ 137  MZ153288    1.12%    passed     91.09%
+ 138  OK161381    1.37%    passed     92.45%
+ 139  MZ460713    1.12%    passed     93.60%
+ 140  OM001415    2.14%    passed     94.68%
+ 141  OK254825    1.35%    passed     94.56%
+ 142  MZ268664    1.12%    passed     98.33%
+ 143  MZ268668    1.22%    passed     99.08%
+ 144  GQ415052    0.59%    passed     97.59%
+ 145  KY460514    9.64%    passed     23.37%
+****  TOTAL       1.60%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OM001440 is identical to OM001406 but kept for subsequent analysis
+NOTE: ON311205 is identical to ON311203 but kept for subsequent analysis
+NOTE: MZ363468 is identical to MZ629174 but kept for subsequent analysis
+NOTE: MZ268725 is identical to MZ268713 but kept for subsequent analysis
+NOTE: MZ363433 is identical to MZ363415 but kept for subsequent analysis
+NOTE: MZ460708 is identical to MZ460706 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000687838 secs using 85.92% CPU
+Identifying sites to remove: done in 0.0128191 secs using 92.27% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OK181471 (identical to OM001406) is ignored but added at the end
+Alignment was printed to results/aligned_rhinovirusA_101-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_rhinovirusA_101-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -110713.928
+2. Current log-likelihood: -92239.842
+3. Current log-likelihood: -92057.362
+Optimal log-likelihood: -92056.894
+Rate parameters:  A-C: 2.53124  A-G: 52.92492  A-T: 3.72591  C-G: 1.57433  C-T: 100.00000  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.193  G: 0.201  T: 0.269
+Parameters optimization took 3 rounds (0.404 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.042345 secs using 99.14% CPU
+Computing ML distances took 0.042999 sec (of wall-clock time) 0.042508 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000507832 secs using 169.9% CPU
+Constructing RapidNJ tree: done in 0.000811815 secs using 177.7% CPU
+Computing RapidNJ tree took 0.001369 sec (of wall-clock time) 0.002420 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -27826.646
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.186903 secs using 168% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -27807.006
+Optimizing NNI: done in 1.86318 secs using 99.89% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -27807.006 / CPU time: 2.257
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -27807.006
+Optimal log-likelihood: -27807.006
+Rate parameters:  A-C: 1.85570  A-G: 34.10812  A-T: 2.32650  C-G: 0.92940  C-T: 66.13850  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.193  G: 0.201  T: 0.269
+Parameters optimization took 1 rounds (0.042 sec)
+BEST SCORE FOUND : -27807.006
+Total tree length: 0.427
+
+Total number of iterations: 2
+CPU time used for tree search: 2.388 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.257 sec (0h:0m:2s)
+Total CPU time used: 2.991 sec (0h:0m:2s)
+Total wall-clock time used: 2.827 sec (0h:0m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_rhinovirusA_101-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_rhinovirusA_101-delim.fasta.treefile
+  Likelihood distances:          results/aligned_rhinovirusA_101-delim.fasta.mldist
+  Screen log file:               results/aligned_rhinovirusA_101-delim.fasta.log
+
+Date and Time: Tue Nov 29 15:28:29 2022
